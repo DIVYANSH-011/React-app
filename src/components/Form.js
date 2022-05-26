@@ -14,7 +14,9 @@ class Form extends Component {
         return (
             <form>
                 <label>Username</label>
-                <input type = "text" />
+                <input type = "text"  value={this.state.username}
+                onChange={this.handleUsernameChange}
+                />
 
             </form>
         );
