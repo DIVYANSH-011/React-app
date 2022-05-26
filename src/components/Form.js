@@ -6,17 +6,37 @@ class Form extends Component {
         super(props)
 
         this.state={
-            username : ""
+            username : "",
+            comments : ""
+
 
         }
     }
+    handleUsernameChange = (event) => {
+        this.setState({
+            username: event.target.value
+        })
+            
+        
+
+    }
+
+
     render() {
         return (
             <form>
-                <label>Username</label>
-                <input type = "text"  value={this.state.username}
-                onChange={this.handleUsernameChange}
-                />
+                <div>
+                    <label>Username</label>
+                    <input type = "text"  value={this.state.username}
+                    onChange={this.handleUsernameChange}
+                    />
+                </div>
+
+                <div>
+                    <label>comments</label>
+                    <textarea value={this.state.comments} onChange={this.handleCommentsChange}>specify here</textarea>
+                </div>
+                
 
             </form>
         );
