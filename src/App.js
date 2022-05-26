@@ -21,10 +21,10 @@ function App() {
       <ClassClick />
       <EventBind /> */}
       {/* <ParentComponent /> */}
-      <UserGreeting />
+      {/* <UserGreeting />
       <NameList />
       <StyleSheet Primary={true} />
-      <Inline />
+      <Inline /> */}
       <Form />
 
       {/* <Counter />
