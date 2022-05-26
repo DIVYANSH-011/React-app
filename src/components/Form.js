@@ -16,9 +16,11 @@ class Form extends Component {
         this.setState({
             username: event.target.value
         })
-            
-        
-
+    }
+    handleCommentsChange = (event) => {
+        this.setState({
+            comments:event.target.value
+        })
     }
 
 
