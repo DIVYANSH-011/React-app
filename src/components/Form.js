@@ -7,7 +7,8 @@ class Form extends Component {
 
         this.state={
             username : "",
-            comments : ""
+            comments : "",
+            topic: ''
 
 
         }
@@ -22,11 +23,21 @@ class Form extends Component {
             comments:event.target.value
         })
     }
+    handleTopicChange = event => {
+        this.setState({
+            topic: event.target.value
+        })
+    }
+
+    handleSubmit = event => {
+        alert(`${this.state.username} ${this.state.comments} ${this.state.topic}`)
+        event.preventDefault()
+    }
 
 
     render() {
         return (
-            <form>
+            <form onSubmit ={this.handleSubmit}>
                 <div>
                     <label>Username</label>
                     <input type = "text"  value={this.state.username}
@@ -41,12 +52,14 @@ class Form extends Component {
 
                 <div>
                     <label>topic</label>
-                    <select>
-                        <option>React</option>
-                        <option>Angular</option>
-                        <option>Vue</option>
+                    <select value={this.state.topic} onchange={this.handleTopicChange}>
+                        <option value="react">React</option>
+                        <option value="angular">Angular</option>
+                        <option value="vue">Vue</option>
                     </select>
                 </div>
+
+                <button type="submit">Submit</button>
                 
 
             </form>
