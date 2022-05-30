@@ -6,13 +6,25 @@ class LifecycleA extends Component {
 
         this.state = {
             name: 'divyansh'
-
         }
+        console.log('LifecycleA constructor')
     }    
+
+    static getDerivedStateFromProps(props, state) {
+        console.log('LifecycleA getDerivedStateFromProps')
+        return null
+    }
+
+    componentDidMount() {
+        console.log('LifecycleA componentDidMount')
+    }
+    
+
     render() {
+        console.log('LifecycleA render')
         return (
             <div>
-                
+                Lifecycle A
             </div>
         );
     }
