@@ -26,7 +26,7 @@ function App() {
       <NameList />
       <StyleSheet Primary={true} />
       <Inline /> */}
-      <Form />
+      {/* <Form /> */}
       <LifecycleA />
 
       {/* <Counter />
