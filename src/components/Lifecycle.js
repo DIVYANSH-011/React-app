@@ -20,15 +20,15 @@ class Lifecycle extends Component {
     }
 
     shouldComponentUpdate() {
-        console.log('LifecycleA shouldComponentUpdate')
+        console.log('Lifecycle shouldComponentUpdate')
         return true
     }
     getSnapshotBeforeUpdate(prevProps, prevState) { 
-        console.log('LifecycleA getSnapshotBeforeUpdate')
+        console.log('Lifecycle getSnapshotBeforeUpdate')
     }
 
     componentDidUpdate() {
-        console.log('LifecycleA componentDidUpdate')
+        console.log('Lifecycle componentDidUpdate')
     }
     
 
