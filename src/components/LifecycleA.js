@@ -31,6 +31,12 @@ class LifecycleA extends Component {
         console.log('LifecycleA componentDidUpdate')
     }
 
+    changeState = () => {
+        this.setState({
+            name: 'divyansh'
+        })
+    }
+
 
 
     render() {
