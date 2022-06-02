@@ -24,7 +24,10 @@ class LifecycleA extends Component {
         return true
     }
     getSnapshotBeforeUpdate(prevProps, prevState) { 
-        
+        console.log('LifecycleA getSnapshotBeforeUpdate')
+        return null
+    }
+
 
 
     render() {
