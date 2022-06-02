@@ -20,7 +20,7 @@ class LifecycleA extends Component {
         console.log('LifecycleA componentDidMount')
     }
     shouldComponentUpdate() {
-        console.log(object)
+        console.log('LifecycleA shouldComponentUpdate')
     }
 
 
