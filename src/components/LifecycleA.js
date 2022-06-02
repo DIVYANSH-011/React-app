@@ -23,6 +23,8 @@ class LifecycleA extends Component {
         console.log('LifecycleA shouldComponentUpdate')
         return true
     }
+    getSnapshotBeforeUpdate(prevProps, prevState) { 
+        
 
 
     render() {
