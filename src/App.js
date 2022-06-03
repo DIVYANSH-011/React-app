@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <FragmentDemo />
       <Tables />
-      <Form />
+
      
     </div>
   );
