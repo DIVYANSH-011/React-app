@@ -4,7 +4,10 @@ import React from 'react';
 function FragmentDemo(props) {
     return (
         <div>
-            Fragmment Demo
+            <h1>
+                Fragmment Demo
+            </h1>
+            <p> This describes the demo</p>
         </div>
     );
 }
