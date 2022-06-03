@@ -1,4 +1,5 @@
 import React from 'react';
+import Columns from './Columns';
 
 
 function Tables(props) {
@@ -6,7 +7,7 @@ function Tables(props) {
         <table>
             <tbody>
                 <tr>
-                    
+                    <Columns />
                 </tr>
             </tbody>
         </table>
