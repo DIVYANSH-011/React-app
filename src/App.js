@@ -16,6 +16,7 @@ import Inline from './components/Inline';
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
 import FragmentDemo from './components/FragmentDemo';
+import Tables from './components/Tables';
 function App() {
   return (
     <div className="App">
