@@ -1,13 +1,14 @@
 import React from 'react';
 
 function Columns(props) {
+    const items = []
+
     return (
-        <div>
+        <>
             <td>Name</td>
             <td>Divyansh</td>
-            
-        </div>
-    );
+        </>
+    )
 }
 
 export default Columns;
