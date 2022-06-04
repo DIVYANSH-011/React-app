@@ -17,9 +17,12 @@ import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
 import FragmentDemo from './components/FragmentDemo';
 import Tables from './components/Tables';
+import ParentComponent from './components/ParentComponent';
+import PureComponent from './components/PureComponent';
 function App() {
   return (
     <div className="App">
+      <PureComponent />
       
      
     </div>
