@@ -20,9 +20,7 @@ import Tables from './components/Tables';
 function App() {
   return (
     <div className="App">
-      <FragmentDemo />
-      <Tables />
-
+      
      
     </div>
   );
