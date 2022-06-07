@@ -4,7 +4,7 @@ class RegComp extends Component {
     render() {
         return (
             <div>
-                regular component
+                regular component {this.props.name}
             </div>
         );
     }
